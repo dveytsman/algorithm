@@ -14,6 +14,6 @@ def char_counts(string):
             else:
                 counts[char] = 1
 
-    return counts;
+    return counts
 
 print(char_counts("hello there"))
