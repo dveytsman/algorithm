@@ -24,9 +24,9 @@ var addTwoNumbers = function (l1, l2) {
 };
 
 // for testing
-node2 = new ListNode(9);
-list1 = new ListNode(9, node2);
-list2 = new ListNode();
+let node2 = new ListNode(9);
+let list1 = new ListNode(9, node2);
+let list2 = new ListNode();
 node = list2;
 "103".split("").forEach((digit) => {
   node.next = new ListNode(Number(digit));
